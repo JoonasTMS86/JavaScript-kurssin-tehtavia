@@ -1,0 +1,91 @@
+body 
+{
+    background-color: #d0e4fe;
+}
+
+h1 
+{
+    color: blue;
+    font-family: "Arial";
+    text-align: left;
+    font-size: 70px;
+}
+
+h2
+{
+    color: blue;
+    font-family: "Arial";
+    text-align: left;
+    font-size: 45px;
+}
+
+p 
+{
+    font-family: "Arial";
+	color: blue;
+    font-size: 30px;
+}
+
+kpl
+{
+    position: relative;
+	left: 170px;
+	bottom: 50px;
+}
+kpl2
+{
+    position: relative;
+	left: 220px;
+	bottom: 105px;
+}
+kpl3
+{
+    position: relative;
+	left: 390px;
+	bottom: 154px;
+}
+kpl4
+{
+    position: relative;
+	left: 450px;
+	bottom: 210px;
+}
+kpl5
+{
+    position: relative;
+	left: 620px;
+	bottom: 260px;
+}
+kpl6
+{
+    position: relative;
+	left: 680px;
+	bottom: 315px;
+}
+
+kpl7
+{
+    position: relative;
+	left: 850px;
+	bottom: 364px;
+}
+
+kpl8
+{
+    position: relative;
+	left: 910px;
+	bottom: 418px;
+}
+
+nappi
+{
+	position: absolute;
+	left: 10px;
+	top: 350px;
+}
+
+tulos
+{
+	position: absolute;
+	bottom: 400px;
+}

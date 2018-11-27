@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>K08T01 - Joonas Lindberg, 1304436</title>
+<meta charset="utf-8">
+<link rel="stylesheet" href="K08T01.css" />
+<script src="jquery-2.1.1.min.js"></script>
+<script src="K08T01.js"></script>
+</head>
+
+<body>
+<h1>K08T01</h1>
+<h2>Arithmetic calculator</h2>
+
+<p id="alue1">
+How many numbers?
+<br/>
+<input type="text" id="numbers">
+<br/>
+<button id="nappi">Create calculator</button>
+</p>
+
+<div id="alue2">
+	<input type="text" id="num1">
+	
+	<div id="toka">
+		<kpl>
+		<form>
+		<input type="radio" name="op1" id="n1" checked> +<br/>
+		<input type="radio" name="op1" id="n2"> -<br/>
+		<input type="radio" name="op1" id="n3"> *<br/>
+		<input type="radio" name="op1" id="n4"> /
+		</form>
+		</kpl>
+		<kpl2>
+		<input type="text" id="num2">
+		</kpl2>
+	</div>
+	
+	<div id="kolmas">
+		<kpl3>
+		<form>
+		<input type="radio" name="op2" id="n5" checked> +<br/>
+		<input type="radio" name="op2" id="n6"> -<br/>
+		<input type="radio" name="op2" id="n7"> *<br/>
+		<input type="radio" name="op2" id="n8"> /
+		</form>
+		</kpl3>
+		<kpl4>
+		<input type="text" id="num3">
+		</kpl4>
+	</div>
+	
+	
+	<div id="neljas">
+		<kpl5>
+		<form>
+		<input type="radio" name="op3" id="n9" checked> +<br/>
+		<input type="radio" name="op3" id="n10"> -<br/>
+		<input type="radio" name="op3" id="n11"> *<br/>
+		<input type="radio" name="op3" id="n12"> /
+		</form>
+		</kpl5>
+		<kpl6>
+		<input type="text" id="num4">
+		</kpl6>
+	</div>
+	
+	<div id="viides">
+		<kpl7>
+		<form>
+		<input type="radio" name="op4" id="n13" checked> +<br/>
+		<input type="radio" name="op4" id="n14"> -<br/>
+		<input type="radio" name="op4" id="n15"> *<br/>
+		<input type="radio" name="op4" id="n16"> /
+		</form>
+		</kpl7>
+		<kpl8>
+		<input type="text" id="num5">
+		</kpl8>
+	</div>
+	
+	<nappi>
+	<button id="laske">Count!</button>
+	</nappi>
+</div>
+
+	<tulos>
+	<p id="tulos"></p>
+	</tulos>
+
+</body>
+</html>

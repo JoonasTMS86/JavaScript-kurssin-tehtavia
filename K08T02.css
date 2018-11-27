@@ -1,0 +1,40 @@
+body 
+{
+    background-color: #5fff5f;
+}
+
+h1 
+{
+    color: black;
+    font-family: "Times New Roman";
+    text-align: left;
+    font-size: 70px;
+}
+
+h2
+{
+    color: black;
+    font-family: "Times New Roman";
+    text-align: left;
+    font-size: 45px;
+}
+
+p 
+{
+    font-family: "Arial";
+	color: blue;
+    font-size: 30px;
+}
+
+fieldset 
+{
+    display: block;
+	background-color: #00ef8f;
+    margin-left: 2px;
+    margin-right: 2px;
+    padding-top: 0.35em;
+    padding-bottom: 0.625em;
+    padding-left: 0.75em;
+    padding-right: 0.75em;
+    border: 2px groove (internal value);
+}
